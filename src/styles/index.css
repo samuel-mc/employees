@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --sm: 1.6rem;
+  --md: 2.0rem;
+  --lg: 2.8rem;
+  --xl: 3.6rem;
+
+  /* Colores */
+  --dark-blue: #0f183f;
+  --light-blue: #1f499f;
+  --dark-pink: #ed137d;
+  --light-pink: #f392bd;
+  --white: #ffffff;
+
+  --green: #4CAF50;
+  --red: #F44336;
+}

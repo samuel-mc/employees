@@ -1,0 +1,35 @@
+.content {
+    padding: 32px;
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 72px);
+}
+.content__table {
+    font-size: var(--sm);
+    border: 1px solid var(--dark-blue);
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.content__table th {
+    background-color: var(--light-blue);
+    color: var(--white);
+    padding: 12px;
+}
+
+.content__table td {
+    border: 1px solid var(--dark-blue);
+    padding: 12px;
+}
+
+.content__empty {
+    color: var(--dark-blue);
+    font-size: var(--md);
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;
+    width: 100%;
+}

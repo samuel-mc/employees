@@ -1,0 +1,29 @@
+.form__group {
+    display: flex;
+    font-size: var(--sm);
+    flex-direction: column;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+.form__group label {
+    color: var(--dark-blue);
+    font-size: var(--sm);
+    font-weight: bold;
+    margin: 0 0 4px 4px;
+}
+
+.form__group input {
+    border: 1px solid var(--dark-blue);
+    border-radius: 4px;
+    font-size: var(--sm);
+    padding: 4px 8px;
+    width: 100%;
+}
+
+.form__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 12px;
+}
